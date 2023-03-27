@@ -20,7 +20,7 @@ int ev_print_func(const char *s, int index)
 		{" d", prinsint}, {" u", print_unt}, {" o", print_oct},
 		{" x", print_hex}, {" X", print_upx}, {"%", print_prg}, 
 		{" +i", prinpint}, {" +d", prinpint}, {"+ i", prinpint},
-		{"+ d", prinpint}, {" %", print_prg}, {NULL, NULL},
+		{"+ d", prinpint}, {" %", print_prg}, {NULL, NULL}
 	};
 	int i = 0, j = 0, first_index;
 
